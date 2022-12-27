@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-color:#0b0b0c ;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image:url(../img/fondo\ pagina\ web.jpg);
+    background-repeat: no-repeat;
+    max-width: 100%;
+
+
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.textoEncima{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.colorDeFondo{
+background-color: #0b0b0c;
+border: #06b3be solid;
+color: #06b3be;
+margin: 0;
+}
+#menu{
+    background:#000000;
+}
+
+.o{
+    color: #d6ec11;
+}
+.test{
+   background-color:#aa4e8b;
+   color: #aa4e8b;
+}    
+
+/* Inicio Estilos barra de navegacion */
+.fondo {
+    background-color: #06b3be;
+    
+}
+
+
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: #D6B1FF;
+}
+
+a.dropdown-item:hover {
+    background-color: blueviolet;
+    color: rgb(19, 17, 17);
+} 
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28140, 0, 211, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+#b1 {
+    background-color: #D6B1FF;
+    color: blueviolet;
+}
+
+#b2 {
+    background-color: blueviolet;
+    color: rgb(76, 41, 41);
+}
+
+.bi-cart2 {
+    font-size: 20px;
+    color: blueviolet;
+}
+/* Fin  estilos barra de navegacion */
+
+/* INICIO DE CUADRO  */
+/* background-color: #ffc47c; */
+#Tarjeta{
+    display: none;
+}
+
+
+
+.margen{
+   margin-top: 8vh;
+   margin-bottom: 7vh;
+
+}
+
+.seccion1{
+    background-color: #ffb4e4;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    
+}
+
+.margintop{
+    margin-top: 1rem;
+    
+}
+.pading{
+    padding: 1rem;
+    
+}
+.altura{
+    height: 36rem;
+}
+.S{
+    height: 100%;
+}
+.altura:hover{
+    box-shadow: rgba(31, 1, 75, 0.25) 0px 54px 55px, rgba(27, 3, 74, 0.245) 0px -12px 30px, rgba(169, 26, 26, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.93) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+border-radius: 10%;
+}
+.tamal{
+    height: 18rem;
+    
+}
+.tamal:hover{
+    box-shadow: rgba(31, 1, 75, 0.017) 0px 54px 55px, rgba(27, 3, 74, 0.044) 0px -12px 30px, rgba(169, 26, 26, 0.029) 0px 4px 6px, rgba(0, 0, 0, 0.284) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10%;
+}
+
+
+.tamalito{
+    width: 10rem;
+    height: 2rem;
+    display: inline;
+}
+
+.colorTitul{
+    color: #c3bb2d;
+}
+
+/* FIN DE CUADRO */
+
+/* footer */
+.footer{
+    /* background-color: #D6B1FF; */
+    background-color:#06b3be ;
+    margin-top: auto;
+    max-height: 4.375rem;
+    width: 100%;
+}
+
+.nombreempresa{
+    color:  #aa4e8b ;
+}
+.iconosredes a{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 2px;
+    color: #070306;
+    align-items: center;
+    transition: all 0.2s ease-in;
+    
+}
+.iconoInicio i{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    padding: 2px;
+    color: #b8b60d;
+    align-items: center;
+    transition: all 0.2s ease-in;
+    
+}
+.logoempresa{
+    
+    width: 100%;
+    height:160px;
+    margin: 10px;
+    color: #06b3be;
+
+}
+/* termina footer */
+.hs{
+  color: #06b3be;
+  
+}
+.hs:hover{
+  color: #06be77;
+}
+
+.paracetamol i{
+    
+    margin: .1rem;
+   
+    color: #b1ae0a;
+    font-size: 8rem;
+    
+}
+.paracetamol a{
+    text-decoration: none;
+}
+
+
+
+.arriba{
+   
+    text-decoration: none;
+    color: #06b3be;
+}
+
+
+.slideUp {
+    animation-name: slideUp;
+    animation-name: slideUp;
+    animation-duration: 100s;
+    animation-duration: 5s;
+    visibility: visible;
+    color: #c3bb2d;
+    text-align: center;
+    
+    
+  }
+  .slideUps{
+    animation-name: slideUp;
+    
+    animation-name: slideUp;
+    animation-duration: 100s,;
+    animation-duration:5s;
+   
+    visibility:visible;
+    color: #06b3be;
+    text-align: center;
+    
+  }
+
+  
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translatey(90%);
+      
+      
+    } 
+   
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+      
+    }
+  }
+  .movimientoBici{
+    
+    position: relative;
+    transition: all 3s;
+    animation: derechabici 4s infinite alternate;
+}
+
+@keyframes derechabici {
+    0% { 
+      left: 0em;
+    }
+    100% {
+      left: 90%;
+    }
+  }
+  
+  
+  
+  
+  
+
+
+
+
+
+  #bicis,
+#carro,
+#moto,
+#patineta,#avion {
+  font-size: 8em;
+  background-color: #18191f;
+  color: #fff;
+  box-shadow: 2px 2px 2px #00000080, 10px 1px 12px #00000080,
+    2px 2px 10px #00000080, 2px 2px 3px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080, inset 2px 2px 10px #00000080,
+    inset 2px 2px 10px #00000080;
+  border-radius: 29px;
+  
+  margin: 0 40px;
+  animation: animate 3s linear infinite;
+  text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+    0 0 200px #0072ff;
+}
+#nombress {
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  }
+  #apellido{
+    text-shadow: red 2px 5px;
+  }
+  
+
+#bicis {
+  animation-delay: 0.3s;
+}
+
+#carro {
+  animation-delay: 0.7s;
+}
+
+#patineta {
+  animation-delay: 0.1s;
+}
+#avion {
+    animation-delay: 0.7s;
+  }
+  
+  #moto {
+    animation-delay: 0.1s;
+  }
+
+@keyframes animate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+label{
+    display: inline;
+ position: absolute;
+ background-color: rgba(15, 15, 15, 0.867);
+ color:#d4d40a 
+}
+
+
