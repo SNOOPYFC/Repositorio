@@ -230,8 +230,10 @@ border-radius: 10%;
     animation-duration: 100s;
     animation-duration: 5s;
     visibility: visible;
-    color: #c3bb2d;
+    color: #0bdae9d3;
     text-align: center;
+    margin: 1rem;
+    text-align: justify;
     
     
   }
@@ -245,6 +247,8 @@ border-radius: 10%;
     visibility:visible;
     color: #06b3be;
     text-align: center;
+    margin: 1rem;
+    text-align: justify;
     
   }
 
