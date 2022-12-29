@@ -311,7 +311,7 @@ border-radius: 10%;
     
   }
 #apellido{
-    text-shadow: rgb(8, 8, 8) 2px 1px;
+    /* text-shadow: rgb(8, 8, 8) 2px 1px; */
     
     font-style: italic;
   }
