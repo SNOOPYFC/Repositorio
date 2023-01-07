@@ -50,3 +50,22 @@ var n_estrellas = 500;
 
 			pintar();
 		};
+
+		const  typed = new  Typed (".typed",{
+			strings: [
+			"<i class='mascota'>Desarrollador Web Java Full Stack Jr.</i>",
+			"<i class='mascota'>Economista</i>",
+			"<i class='mascota'>Analista de Datos Jr. </i>"],
+			stringsElement: '#cadenas-texto',
+			typeSpeed: 75,
+			startDelay: 300,
+			backSpeed: 75,
+			smartBackspace: true,
+			shuffle: false,
+			backDelay: 1500,
+			loop: true,
+			loopCount: false,
+			showCursor: false,
+			cursorChar: '|',
+			contentType: 'html', 
+		});
